@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- The "package" must have this three-layer structure for some reason. Other configurations could not be successfully tested. -->
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="org.kolodez.HelloWorld"
+>
+	
+	<application
+		android:label="HelloLabel"
+	>
+		
+		<activity
+			android:name="HelloClass"
+			android:label="HelloLabel"
+		>
+			
+			<intent-filter>
+				
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+				
+			</intent-filter>
+			
+		</activity>
+		
+	</application>
+	
+</manifest>
