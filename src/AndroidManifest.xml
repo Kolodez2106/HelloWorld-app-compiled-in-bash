@@ -7,12 +7,12 @@
 >
 	
 	<application
-		android:label="HelloLabel"
+		android:label="Hello Label"
 	>
 		
 		<activity
-			android:name="HelloClass"
-			android:label="HelloLabel"
+			android:name=".HelloClass"
+			android:label="Hello Label"
 		>
 			
 			<intent-filter>
